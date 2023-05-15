@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: '맑은 고딕', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    background-color: #ffffff;
+    color: #333333;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.wrap {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* header */
+.header {
+    height: 100px;
+}
+
+/* slider */
+.slider {
+    height: 300px;
+}
+
+/* contents */
+.contents {
+    height: 200px;
+}
+
+/* footer */
+.footer {
+    height: 100px;
+}
+
+/* modal */
+#modal {
+    display: none;
+}
